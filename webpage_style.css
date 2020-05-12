@@ -1,0 +1,31 @@
+/* body{
+  background-color: $page_background_color;
+} */
+h1 {
+  color: #41424a;
+  background-color: #d2d8fc;
+  font-family: sans-serif;
+  font-size: 30px;
+  align-content: center;
+  font-weight: bold;
+  font-style: italic;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  text-align: center;
+}
+
+li {
+  color: #000000;
+  font-size: 20px;
+  text-align: left;
+}
+
+#pinkvanimg {
+  display: inline-block;
+}
+
+#flowervwimg {
+  display: inline-block;
+}
+
+/*# sourceMappingURL=webpage_style.css.map */
