@@ -1,15 +1,20 @@
 $page_background_color: #d2d8fc;
 $text_color: #41424a;
 $index_text_color: #000000;
+$hover_background_color: #4a3675;
+$image_height: 550px;
+$image_width: 370px;
+$padding: 10px;
+$th_background_color: #dfe0e6;
 
   /* body{
     background-color: $page_background_color;
   } */
 
+// Index Page Styling
   h1{
     color: $text_color;
     background-color: $page_background_color;
-    font-family: sans-serif;
     font-size: 30px;
     align-content: center;
     font-weight: bold;
@@ -19,16 +24,70 @@ $index_text_color: #000000;
     text-align: center;
   }
 
-  li {
+  li, h4{
     color: $index_text_color;
-    font-size: 20px;
     text-align: left;
+    font-size: 25px;
+    padding-left: 15px;
+    padding: 15px;
   }
 
-  #pinkvanimg {
-    display: inline-block;
+  li:hover {
+    background-color: $hover_background_color;
   }
 
-  #flowervwimg{
-    display: inline-block;
+  a:visited , a:link, a:active{
+    color: black;
+  }
+
+  a:hover {
+    color: white;
+  }
+
+  #introduction{
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+  }
+
+  .grid-item {
+    float:left;
+    width: auto;
+    padding: 5px;
+  }
+
+  img{
+      height: $image_height;
+      width: $image_width;
+      padding-left: $padding;
+      padding-right: $padding;
+  }
+
+  // Page 1 Styling
+  #Introduction_Page1{
+    text-align: center;
+    font-style: italic;
+    font-weight: lighter;
+  }
+
+  table{
+    font-size: 20px;
+    border: 1px solid $text_color;
+    border-collapse: collapse;
+    width: 50%;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+  }
+
+  th, td {
+      border: 1px solid black;
+      padding: 5px;
+      text-align: left;
+  }
+
+  #Kacey_Musgraves{
+    background-color: $th_background_color;
   }

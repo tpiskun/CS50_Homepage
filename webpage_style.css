@@ -4,7 +4,6 @@
 h1 {
   color: #41424a;
   background-color: #d2d8fc;
-  font-family: sans-serif;
   font-size: 30px;
   align-content: center;
   font-weight: bold;
@@ -14,18 +13,72 @@ h1 {
   text-align: center;
 }
 
-li {
+li, h4 {
   color: #000000;
+  text-align: left;
+  font-size: 25px;
+  padding-left: 15px;
+  padding: 15px;
+}
+
+li:hover {
+  background-color: #4a3675;
+}
+
+a:visited, a:link, a:active {
+  color: black;
+}
+
+a:hover {
+  color: white;
+}
+
+#introduction {
+  text-align: center;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+.grid-item {
+  float: left;
+  width: auto;
+  padding: 5px;
+}
+
+img {
+  height: 550px;
+  width: 370px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+#Introduction_Page1 {
+  text-align: center;
+  font-style: italic;
+  font-weight: lighter;
+}
+
+table {
   font-size: 20px;
+  border: 1px solid #41424a;
+  border-collapse: collapse;
+  width: 50%;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 5px;
   text-align: left;
 }
 
-#pinkvanimg {
-  display: inline-block;
-}
-
-#flowervwimg {
-  display: inline-block;
+#Kacey_Musgraves {
+  background-color: #dfe0e6;
+  font-weight: bold;
 }
 
 /*# sourceMappingURL=webpage_style.css.map */
