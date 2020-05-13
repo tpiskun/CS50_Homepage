@@ -1,11 +1,13 @@
 $page_background_color: #d2d8fc;
 $text_color: #41424a;
 $index_text_color: #000000;
-$hover_background_color: #4a3675;
+//$hover_background_color: #4a3675;
+$hover_background_color: #d2d8fc;
 $image_height: 550px;
 $image_width: 370px;
 $padding: 10px;
 $th_background_color: #dfe0e6;
+$media_background_color: #edfff4;
 
   /* body{
     background-color: $page_background_color;
@@ -63,23 +65,41 @@ $th_background_color: #dfe0e6;
       padding-right: $padding;
   }
 
+  //NavBar Styling
+  #navbarNav{
+    background-color: white;
+    height: 20px;
+    width: auto;
+    margin-left: auto;
+    margin-right: auto;
+
+  }
+  .nav-item{
+    font-size: 15px;
+    font-weight:bold;
+  }
+
   // Page 1 Styling
-  #Introduction_Page1{
+  #Introduction_Page1, #Introduction_Page2 ,#Introduction_Page3{
     text-align: center;
     font-style: italic;
     font-weight: lighter;
   }
 
   table{
-    font-size: 20px;
+    font-size: 19px;
     border: 1px solid $text_color;
     border-collapse: collapse;
-    width: 50%;
+    width: 70%;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-    margin-top: auto;
-    margin-bottom: auto;
+  }
+
+  .table_header{
+    font-size: 22px;
+    text-align: center;
+    background-color: $th_background_color;
   }
 
   th, td {
@@ -88,6 +108,32 @@ $th_background_color: #dfe0e6;
       text-align: left;
   }
 
-  #Kacey_Musgraves{
-    background-color: $th_background_color;
-  }
+    // Page 2 Styling
+    .row{
+      font-size: 20px;
+    }
+
+    .book_name{
+      font-style: italic;
+    }
+
+    #book_image{
+      width: auto;
+      length: auto;
+      padding-bottom: 20px;
+    }
+
+    // Page 3 Styling
+    h6{
+      padding-left: 15px;
+      text-align: left;
+    }
+
+    @media (max-width: 500px) {
+      body {
+        margin: auto;
+        background-color: $media_background_color;
+        top: 50%;
+        left: 50%;
+      }
+    }
