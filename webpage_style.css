@@ -120,5 +120,23 @@ h6 {
     left: 50%;
   }
 }
+.cleanMessage::before {
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  color: #332445;
+}
+
+.cleanMessage::before {
+  content: "Clean at Sephora is formulated without a list of over 50 ingredients, including sulfates (SLS and SLES), parabens, phthalates, and more.";
+}
+
+#self_care_img {
+  margin-left: auto;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  height: auto;
+  width: auto;
+}
 
 /*# sourceMappingURL=webpage_style.css.map */
