@@ -1,6 +1,6 @@
-# project0
+# Project 0
 
- Project0 Submission (Homepage) for the 2018 version of Harvard's CS50: Web Programming with Python and JavaScript Course.
+ Project 0 Submission (Homepage) for the 2018 version of Harvard's CS50: Web Programming with Python and JavaScript Course.
 
 ## Motivation
   Combined with an internal drive to learn more about front end development as well as a required component to the CS50 course, the goal of this project is to become more comfortable with HTML and CSS to design and style webpage and to learn how to use SCSS to write more complex stylesheets for webpages.
